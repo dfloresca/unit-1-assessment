@@ -17,6 +17,7 @@ addbtn.addEventListener('click', addition);
 //function for subtraction
 minusbtn.addEventListener('click', subtraction);
 
+
 //functions
 function addition() {
     let sum = Number(result.textContent) + Number(incrementor.value);

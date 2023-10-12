@@ -1,13 +1,35 @@
 body {
     text-align: center;
 }
+
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 #incrementor {
-    width: 50px;
+    width: 100px;
+    height: 50px;
     text-align: center;
+}
+
+#add {
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+#minus {
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+}
+button {
+    color: gray;
+    background-color: white;
+}
+button:hover {
+    filter: invert(1);
 }
