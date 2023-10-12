@@ -21,11 +21,22 @@ minusbtn.addEventListener('click', subtraction);
 //functions
 function addition() {
     let sum = Number(result.textContent) + Number(incrementor.value);
-    result.textContent = sum
+    result.textContent = sum;
+    updateColor();
     // console.log('clicked')
 }
 
 function subtraction() {
     let sum = Number(result.textContent) - Number(incrementor.value);
-    result.textContent = sum
+    result.textContent = sum;
+    updateColor();
+}
+
+
+function updateColor() {
+    if(Number(result.textContent) < 0) { 
+        result.style.color = 'red'
+    } else {
+        result.style.color = 'blue'
+    }
 }
