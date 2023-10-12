@@ -2,26 +2,26 @@ body {
     text-align: center;
 }
 
-#container {
+#container, #AZcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#incrementor {
+#incrementor, #alphaincrementor {
     width: 100px;
     height: 50px;
     text-align: center;
 }
 
-#add {
+#add, #alphaadd {
     width: 50px;
     height: 50px;
     font-weight: bolder;
 }
 
-#minus {
+#minus, #alphaminus {
     width: 50px;
     height: 50px;
     font-weight: bolder;
